@@ -12,3 +12,22 @@
 // obeject 
 
 console.log(typeof null); //object 
+
+// ---------------------------------- Primitev data type , call by value , 7 types 
+
+// Js is dynamicly typed language
+// String  , Number ,  Boolean  , null , undefine , Symbol , BigInt 
+
+// ---------------------------------- Non primitev , refrince type  
+
+// Array , object , functions  
+
+const id  = Symbol("123")
+const id2 = Symbol("123")
+
+console.log(id === id2);   // ----> false 
+
+const myFun = function (){
+    console.log("Hii")
+}
+
