@@ -14,7 +14,7 @@ console.log(+"");  // 0
 
 let count = 100 
 count++
-console.log(count)    // 100
+console.log(count)    // 101
 
 
 

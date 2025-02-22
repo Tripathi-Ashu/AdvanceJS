@@ -2,7 +2,7 @@
 //  "2" > 1 ---> true
 //  "02" > 1 ----> true 
 
-//  null > 0 
+console.log( null > 0 )
 //  null == 0
 //  null >= 0 
 
