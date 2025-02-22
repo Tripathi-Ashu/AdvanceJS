@@ -13,12 +13,13 @@
 
 console.log(typeof null); //object 
 
-// ---------------------------------- Primitev data type , call by value , 7 types 
+// ---------------------------------- Primitev data type , call by value , 7 types , stack , value ka copy milta hai 
 
 // Js is dynamicly typed language
 // String  , Number ,  Boolean  , null , undefine , Symbol , BigInt 
 
-// ---------------------------------- Non primitev , refrince type  
+// ---------------------------------- Non primitev , refrince type  , heap , value ka refirence milta hai 
+
 
 // Array , object , functions  
 
