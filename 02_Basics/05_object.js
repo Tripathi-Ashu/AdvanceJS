@@ -8,5 +8,6 @@ const  course = {
 
 // course.courseinstructor
 
-const {courseInstructor: instructor} = course 
+const {courseInstructor: instructor} = course  
+
 
