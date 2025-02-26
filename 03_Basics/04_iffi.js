@@ -4,7 +4,7 @@
 (function chai(){
     // named IIFE
     console.log(`DB CONNECTED`);
-})();
+})() ;         // semecolon 
 
 
 ( (name) => {
