@@ -1,13 +1,25 @@
-const  course = {
-    courseName:"jas",
-    price:"999",
-    courseInstructor:"Ashutosh"
 
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
 }
 
+// course.courseInstructor
 
-// course.courseinstructor
+const {courseInstructor: instructor} = course
 
-const {courseInstructor: instructor} = course  
+// console.log(courseInstructor);
+console.log(instructor);
 
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
 
+[
+    {},
+    {},
+    {}
+]
