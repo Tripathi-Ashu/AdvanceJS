@@ -1,0 +1,36 @@
+// java script  is a Synchronous and single threded  language 
+
+// line one by one execute hota hai 
+// Blocking code and Non Blocking code  
+--> Block the flow of progam 
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <h1>Chai or code </h1>
+    <button id="stop">stop</button>
+ </body>
+ <script>
+    const sayAshu = function(){
+        console.log("ashutosh");     
+    }
+    setTimeout(sayAshu, 2000);
+
+    const changeText = function() {
+        document.querySelector('h1').innerHTML = "best js seric"
+    }
+
+     const changeMe  = setTimeout(changeText , 2000)
+     document.querySelector('#stop').addEventListener('click', function() {
+        clearTimeout(changeMe)
+        cconsole.log("#shoped");
+        
+     })
+
+    </script>
+ </html>
